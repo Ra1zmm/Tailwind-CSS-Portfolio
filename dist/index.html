@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Tailwind Portfolio</title>
+</head>
+<body class="text-gray-300 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg')">
+    <header class="relative">    
+            <div class="nav flex items-center justify-between bg-gray-900 bg-opacity-50 p-4">
+                <h3 class="title text-3xl font-bold p-4">Ramzi</h3>
+                <nav class="text-yellow-500 font-semibold space-x-5 p-7">
+                    <a class="hover:border-b-4 hover:border-yellow-600 transition ease-out duration-200 hover:text-yellow-300" href="#home">Home</a>
+                    <a class="hover:border-b-4 hover:border-yellow-600 transition ease-out duration-200 hover:text-yellow-300" href="#Project">Project</a>
+                    <a class="hover:border-b-4 hover:border-yellow-600 transition ease-out duration-200 hover:text-yellow-300" href="#Contact">Contact</a>
+                </nav>
+            </div>
+            <section class="bg-gray-900 h-[85vh] bg-opacity-50 py-12">
+                <div class="container mx-auto">
+                    <h1 id="home" class="text-4xl text-center md:text-5xl md:leading-snug m-16">Hello i'm <span class="text-yellow-500 font-semibold">RAMZI REG </span> a University student and a junior Web Developer. </h1>
+                </div>
+            </section>
+    </header>
+    <main>    
+        <div class="bgcl">
+            <h3 class="text-yellow-500 font-serif text-3xl text-center pt-5">SKILLS</h3>
+            <div class="flex justify-evenly items-center h-[50vh]">
+                <div>
+                    <img src="https://logowik.com/content/uploads/images/492_html5.jpg" alt="HTML" class="rounded-full w-14 h-14">
+                    <h3 class="text-2xl text-yellow-200 hover:cursor-pointer hover:text-yellow-600 text-center mt-4">HTML</h3>
+                </div>
+                <div>
+                    <img src="https://seeklogo.com/images/C/css-3-logo-AF06D75231-seeklogo.com.png" alt="CSS" class="rounded-full w-14 h-14">
+                    <h3 class="text-2xl text-yellow-200 text-center hover:cursor-pointer hover:text-yellow-600 mt-4">CSS</h3>
+                </div>
+                <div>
+                    <img src="https://logowik.com/content/uploads/images/bootstrap.jpg" alt="Bootstrap" class="rounded-full w-14 h-14">
+                    <h3 class="text-2xl text-yellow-200 text-center hover:cursor-pointer hover:text-yellow-600 mt-4">Bootstrap</h3>
+                </div>
+                <div>
+                    <img src="https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp" alt="tailwind" class="rounded-full w-14 h-14">
+                    <h3 class="text-2xl text-yellow-200  hover:cursor-pointer hover:text-yellow-600 text-center mt-4">Tailwind</h3>
+                </div>
+            </div>
+        </div>
+        <div class="bg-sky-700 h-[80vh] ">
+
+                <div>
+                    <h3 id="Project" class="text-center text-4xl p-5 font-serif text-yellow-500">My Projects</h3>
+                </div>
+            <div class="flex gap-3 my-9 p-3 pt-16">    
+                <div>
+                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/Screenshot_1.png" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Store</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2024 so far.</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Restaurant Menu</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest Restaurant web page and best prices of the year.</p>
+                        </div>
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/Screenshot_2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="Contact" class="Form pt-7">
+            <form class="max-w-sm mx-auto bg-slate-500">
+              <div class="w-200 mx-auto p-10 bg-gray-400 rounded-lg">
+                <h3 class="text-center mb-5 text-2xl font-serif text-yellow-500 justify-center">Contact</h3>
+                <div class="mb-5">
+                  <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name</label>
+                  <input type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="My name is" required />
+                </div>
+                <div class="mb-5">
+                  <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                  <input type="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@email.com" required />
+                </div>
+                <div class="mb-5">
+                  <label for="Message" class="text-start block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Message</label>
+                  <input type="text" class="h-[150px] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your messages" required />
+                </div>
+                <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+              </div>
+            </form>           
+        </div>
+    </main>
+    <footer>
+        <div class="justify-center text-center mt-12 p-20 text-gray-300 font-semibold bg-slate-400">
+            <p>
+                Copyright &copy;  2024 All right reserved | Made By Ramzi
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
